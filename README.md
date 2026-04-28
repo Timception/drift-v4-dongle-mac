@@ -1,7 +1,7 @@
 # Drift Keyboard V4 — Trackball Edition  
 by **Timception**
 
-Welcome to the **Drift Keyboard V4 — Trackball Edition**.  
+Welcome to the **Drift Keyboard V4 — Dongle (customized for use with Macs)**.  
 This version keeps the familiar shape of previous Drift models while introducing some interesting additional features.  
 
 **Mac users can setup this keyboard** [following this guide](https://github.com/Timception/drift-v4-trackball-dongle/tree/main/precompiled-firmware/Mac-OS-keys)  

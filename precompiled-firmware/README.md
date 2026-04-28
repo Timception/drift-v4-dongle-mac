@@ -1,6 +1,6 @@
 # Drift Keyboard V4 — Mac OS Keys  
 
-![Mac OS Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/driftv4-MacOS.png)  
+![Mac OS Keymap](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/driftv4-MacOS.png)  
 
 
 ### ⚙️ Windows to Mac OS Key Table  
@@ -43,15 +43,17 @@ sudo rm /Library/Preferences/com.apple.keyboardtype.plist
 > 
 > Now your keyboard can type the Tilde(~) key by pressing [SHIFT + ~]  
 > 
-> If you are still unsure, you can have a look at the [detailed pdf file](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/Setup-Drift-on-Macbook.pdf) listed above.  
+> If you are still unsure, you can have a look at the [detailed pdf file](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/Setup-Drift-on-Macbook.pdf) listed above.  
 
 ---
 
 # Mac OS Keymap  
 
-![Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/drift.svg)  
+![Keymap](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/drift.svg)  
 
-The precompiled firmware using this keymap can be found in the zip file listed above: [V4-Mac-OS-keys-firmware.zip](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/precompiled-firmware/Mac-OS-keys/V4-Mac-OS-keys-firmware.zip)
+The precompiled firmware using this keymap can be found in the zip file listed above: [https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/V4-Mac-OS-keys-firmware.zip)  
+
+A firmware with an inverted dongle oled graphic can be found above as well: [V4-Mac-OS-keys-Inverted-OLED.zip](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/V4-Mac-OS-keys-Inverted-OLED.zip)
 
 
 

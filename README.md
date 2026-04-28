@@ -121,7 +121,7 @@ You can see more actual builds [-=HERE=-](https://www.instagram.com/majin.keyboa
 
 # Keymap
 
-![Keymap](https://github.com/Timception/drift-v4-dongle-mac/tree/main/keymap-drawer/drift.svg)  
+![Keymap](https://github.com/Timception/drift-v4-dongle-mac/blob/main/keymap-drawer/drift.svg)  
 
 ## 🔄 Reflashing Instructions
 

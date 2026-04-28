@@ -4,7 +4,7 @@ by **Timception**
 Welcome to the **Drift Keyboard V4 — Dongle (customized for use with Macs)**.  
 This version keeps the familiar shape of previous Drift models while introducing some interesting additional features.  
 
-**Mac users can setup this keyboard** [following this guide](https://github.com/Timception/drift-v4-trackball-dongle/tree/main/precompiled-firmware/Mac-OS-keys)  
+**Mac users can setup this keyboard** [following this guide](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware)  
 
 ---
 
@@ -121,7 +121,7 @@ You can see more actual builds [-=HERE=-](https://www.instagram.com/majin.keyboa
 
 # Keymap
 
-![Keymap](https://github.com/Timception/drift-v4-trackball-dongle/blob/main/keymap-drawer/drift.svg)  
+![Keymap](https://github.com/Timception/drift-v4-dongle-mac/tree/main/keymap-drawer/drift.svg)  
 
 ## 🔄 Reflashing Instructions
 
@@ -129,7 +129,7 @@ Your keyboard already has firmware installed, you usually don’t need to reflas
 But if you want to update to the latest build, here’s how to do it:
 
 1. **Download the latest firmware**  
-   - Go to the **[precompiled-firmware](https://github.com/Timception/drift-v4-trackball-dongle/tree/main/precompiled-firmware)** in this repo.  
+   - Go to the **[precompiled-firmware](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/)** in this repo.  
    - Download the desired **firmware .zip file**, if you have a Mac, get the zip file in the "Mac-OS-keys" folder.  
 
 2. **Unzip the file**  

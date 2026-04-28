@@ -1,6 +1,6 @@
 # Drift Keyboard V4 — Mac OS Keys  
 
-![Mac OS Keymap](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/driftv4-MacOS.png)  
+![Mac OS Keymap](https://github.com/Timception/drift-v4-dongle-mac/blob/main/precompiled-firmware/driftv4-MacOS.png)  
 
 
 ### ⚙️ Windows to Mac OS Key Table  

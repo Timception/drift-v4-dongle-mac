@@ -171,7 +171,7 @@ But if you want to update to the latest build, here’s how to do it:
    - Press the reset button once on each half so they reconnect to the dongle.  
 
 10. ✅ You’re done!  
-	- Download [ZMK Studio](https://zmk.studio/download), or
+	- Download [ZMK Studio](https://zmk.studio/download), or  
     - Open the [ZMK Studio](https://studio.zmk.dev) app online to see your Drift keyboard.  
     - Now you can view and customize your keys to your hearts content.  
 	
@@ -180,11 +180,11 @@ But if you want to update to the latest build, here’s how to do it:
 
 ## Acknowledgments  
 
-This project makes use of code and ideas from the following repositories:
+This project makes use of code and ideas from the following repositories:  
 - [ZMK Firmware](https://github.com/zmkfirmware) (MIT License) - Zephyr™ Mechanical Keyboard (ZMK) Firmware  
 - [ufan/zmk](https://github.com/ufan/zmk) (MIT License) – Original ZMK base and PMW3610 work  
 - [badjeff/zmk-pmw3610-driver](https://github.com/badjeff/zmk-pmw3610-driver) – PMW3610 driver work, based on ufan’s code  
-- [badjeff/zmk-behavior-key-press-lip](https://github.com/badjeff/zmk-behavior-key-press-lip) - LIP Key Press Behavior
+- [badjeff/zmk-behavior-key-press-lip](https://github.com/badjeff/zmk-behavior-key-press-lip) - LIP Key Press Behavior  
 - [leafflat/sai44](https://github.com/leafflat/sai44) (MIT License) – Dongle code reference  
 - [nuovotaka/zmk-pointing-acceleration-alpha](https://github.com/nuovotaka/zmk-pointing-acceleration-alpha) (MIT License) – Pointer acceleration  
 - [caksoylar](https://github.com/caksoylar/keymap-drawer) (MIT License) - Keymap Drawer  

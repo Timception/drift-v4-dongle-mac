@@ -49,9 +49,9 @@ sudo rm /Library/Preferences/com.apple.keyboardtype.plist
 
 # Mac OS Keymap  
 
-![Keymap](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/drift.svg)  
+![Keymap](https://github.com/Timception/drift-v4-dongle-mac/blob/main/keymap-drawer/drift.svg)  
 
-The precompiled firmware using this keymap can be found in the zip file listed above: [https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/V4-Mac-OS-keys-firmware.zip)  
+The precompiled firmware using this keymap can be found in the zip file listed above: [V4-Mac-OS-keys-firmware.zip](https://github.com/Timception/drift-v4-dongle-mac/blob/main/precompiled-firmware/V4-Mac-OS-keys-firmware.zip)  
 
 A firmware with an inverted dongle oled graphic can be found above as well: [V4-Mac-OS-keys-Inverted-OLED.zip](https://github.com/Timception/drift-v4-dongle-mac/tree/main/precompiled-firmware/V4-Mac-OS-keys-Inverted-OLED.zip)
 

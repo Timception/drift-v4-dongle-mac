@@ -61,7 +61,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - '&bootloader'
+  - Sft+Gui+4
   - SPACE
   - {type: held}
   - {t: ▽, type: trans}
@@ -117,7 +117,7 @@ layers:
   - V
   - B
   - VOL DN
-  - '&bootloader'
+  - Ctl+UP ARROW
   - N
   - M
   - ','

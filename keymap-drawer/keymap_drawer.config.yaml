@@ -28,15 +28,15 @@ draw_config:
     rel_h: 12.0
     rx: 4.0
     ry: 4.0
-  dark_mode: true
   svg_extra_style: |-
     svg.keymap { fill: #d4d4d4; background-color: #1e1e1e; }
-        rect.key { fill: #363636; stroke: #5a5a5a; }
-        rect.combo { fill: #2a4a6a; stroke: #5a5a5a; }
-        rect.held { fill: #6a2a2a; }
-        text.trans { fill: #888; }
-        text.label { stroke: #1e1e1e; }
-        text.footer { stroke: #1e1e1e; }
+    rect.key { fill: #363636; stroke: #5a5a5a; }
+    rect.side { fill: #363636; }
+    rect.combo { fill: #2a4a6a; stroke: #5a5a5a; }
+    rect.held { fill: #6a2a2a; }
+    text.trans { fill: #888; }
+    text.label { stroke: #1e1e1e; }
+    text.footer { stroke: #1e1e1e; }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
   style_layer_activators: true

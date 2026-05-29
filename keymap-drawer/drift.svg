@@ -133,14 +133,7 @@ text.label, text.footer { stroke: black; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
-svg.keymap { fill: #d4d4d4; background-color: #1e1e1e; }
-rect.key { fill: #363636; stroke: #5a5a5a; }
-rect.side { fill: #363636; }
-rect.combo { fill: #2a4a6a; stroke: #5a5a5a; }
-rect.held { fill: #6a2a2a; }
-text.trans { fill: #888; }
-text.label { stroke: #1e1e1e; }
-text.footer { stroke: #1e1e1e; }</style>
+rect.held, rect.combo.held { fill: #368bd6; }</style>
 <g transform="translate(30, 0)" class="layer-base">
 <text x="0" y="28" class="label" id="base">base:</text>
 <g transform="translate(0, 56)">

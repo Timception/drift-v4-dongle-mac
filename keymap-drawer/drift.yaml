@@ -526,7 +526,7 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: mouse2, h: toggle}
-  - F7
+  - {t: base, h: toggle}
   - F8
   - F9
   - F10
@@ -568,7 +568,7 @@ layers:
   - V
   - B
   - VOL DN
-  - Ctl+UP ARROW
+  - Sft+Gui+4
   - N
   - M
   - ','

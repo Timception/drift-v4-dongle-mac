@@ -56,7 +56,7 @@ parse_config:
     right_shift: Sft
     left_alt: Alt
     right_alt: AltGr
-    left_gui: Gui
+    left_gui: Command
     right_gui: Gui
     keycode_combiner: '{mods}+{key}'
     mod_combiner: '{mod_1}+{mod_2}'
@@ -198,6 +198,8 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
+    LCTL: 'Option'
+    LGUI: 'Command'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []

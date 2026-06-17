@@ -198,7 +198,7 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-    LCTL: 'Option'
+    LALT: 'Option'
     LGUI: 'Command'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'

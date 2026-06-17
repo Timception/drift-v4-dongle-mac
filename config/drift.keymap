@@ -57,18 +57,12 @@
         };
 		
 		/* Setup left and right */
-        kpad: key_lip_a_d {
+        SOCD: key_lip_a_d {
                 compatible = "zmk,behavior-key-press-lip";
                 #binding-cells = <1>;
                 keycodes = <A D>;
         };
 
-        /* Setup up and down */
-        kpws: key_lip_w_s {
-                compatible = "zmk,behavior-key-press-lip";
-                #binding-cells = <1>;
-                keycodes = <W S>;
-        };
     };
 
     macros {
@@ -106,8 +100,8 @@
             display-name = "base";
             bindings = <
                 &kp ESC    &kp GRAVE &kp N1   &kp N2   &kp N3    &kp N4    &kp N5                       &kp N6    &kp N7    &kp N8    &kp N9  &kp N0   &kp MINUS     &kp EQUAL
-                &kp LG(C)  &kp TAB   &kp Q    &kpws W  &kp E     &kp R     &kp T                        &kp Y     &kp U     &kp I     &kp O   &kp P    &kp LBKT      &kp RBKT
-                &kp LCTRL  &kp CAPS  &kpad A  &kpws S  &kpad D   &kp F     &kp G                        &kp H     &kp J     &kp K     &kp L   &kp SEMI &kp SQT       &kp ENTER
+                &kp LG(C)  &kp TAB   &kp Q    &kp W    &kp E     &kp R     &kp T                        &kp Y     &kp U     &kp I     &kp O   &kp P    &kp LBKT      &kp RBKT
+                &kp LCTRL  &kp CAPS  &SOCD A  &kp S    &SOCD D   &kp F     &kp G                        &kp H     &kp J     &kp K     &kp L   &kp SEMI &kp SQT       &kp ENTER
                 &kp LALT   &kp LGUI  &kp Z    &kp X    &kp C     &kp V     &kp B     &kp LG(V) &kp BSLH &kp N     &kp M     &kp COMMA &kp DOT &kp FSLH &kp BACKSPACE &kp DEL
                                                        &kp LSHFT &kp SPACE &mo LOWER                    &mo RAISE &kp SPACE
             >;
@@ -128,7 +122,7 @@
             bindings = <
                 &kp ESC   &kp GRAVE &kp F1 &kp F2 &kp F3         &kp F4    &kp F5                           &kp F6  &kp F7    &kp F8    &kp F9    &kp F10        &kp F11        &kp F12
                 &trans    &kp TAB   &kp Q  &kp W  &kp E          &kp R     &kp T                            &kp Y   &kp U     &kp I     &kp O     &kp P          &kp LBKT       &kp BACKSLASH
-                &trans    &kp CAPS  &kp A  &kp S  &kp D          &kp F     &kp G                            &kp H   &kp J     &kp K     &kp L     &kp SEMI       &kp UP_ARROW   &kp ENTER
+                &trans    &kp CAPS  &trans &kp S  &trans         &kp F     &kp G                            &kp H   &kp J     &kp K     &kp L     &kp SEMI       &kp UP_ARROW   &kp ENTER
                 &trans    &trans    &kp Z  &kp X  &kp C          &kp V     &kp B  &kp C_VOL_DN &kp C_VOL_UP &kp N   &kp M     &kp COMMA &kp DOT   &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW
                                                   &kp LS(LG(N4)) &kp SPACE &trans                           &trans  &kp SPACE
             >;
@@ -148,7 +142,7 @@
             bindings = <
                 &bt BT_CLR_ALL &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4                                &to MOUSE2 &to TRACKB_OFF  &kp F8    &kp F9  &kp F10        &msc SCRL_UP   &mkp MB4
                 &trans         &kp TAB    &kp Q        &kp W        &kp E        &kp R         &kp T                                       &kp Y      &kp U           &kp I     &kp O   &kp P          &msc SCRL_DOWN &mkp MCLK
-                &trans         &kp CAPS   &kp A        &kp S        &kp D        &kp F         &kp G                                       &kp H      &kp J           &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
+                &trans         &kp CAPS   &trans       &kp S        &trans       &kp F         &kp G                                       &kp H      &kp J           &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
                 &trans         &trans     &kp Z        &kp X        &kp C        &kp V         &kp B        &kp C_VOL_DN &kp LC(UP_ARROW)  &kp N      &kp M           &kp COMMA &kp DOT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
                                                                     &bootloader  &kp SPACE     &trans                                      &trans     &kp SPACE
             >;
@@ -168,7 +162,7 @@
             bindings = <
                 &kp ESC    &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                                 &kp N6 &kp N7    &kp N8    &kp N9  &kp N0         &kp MINUS      &kp EQUAL
                 &trans     &kp TAB    &kp Q        &kp W        &kp E        &kp R        &kp T                                  &kp Y  &kp U     &kp I     &kp O   &kp P          &msc SCRL_DOWN &mkp MCLK
-                &trans     &kp CAPS   &kp A        &kp S        &kp D        &kp F        &kp G                                  &kp H  &kp J     &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
+                &trans     &kp CAPS   &trans       &kp S        &trans       &kp F        &kp G                                  &kp H  &kp J     &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
                 &trans     &trans     &kp Z        &kp X        &kp C        &kp V        &kp B        &kp C_VOL_DN &kp C_VOL_UP &kp N  &kp M     &kp COMMA &kp DOT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
                                                                 &kp LSHFT    &kp SPACE    &trans                                 &trans &kp SPACE
             >;
@@ -249,8 +243,8 @@
             display-name = "trackb_off";
             bindings = <
                 &kp ESC    &kp GRAVE &kp N1   &kp N2   &kp N3    &kp N4    &kp N5                        &kp N6     &kp N7    &kp N8    &kp N9  &kp N0   &kp MINUS     &kp EQUAL
-                &kp LG(C)  &kp TAB   &kp Q    &kpws W  &kp E     &kp R     &kp T                         &kp Y      &kp U     &kp I     &kp O   &kp P    &kp LBKT      &kp RBKT
-                &kp LCTRL  &kp CAPS  &kpad A  &kpws S  &kpad D   &kp F     &kp G                         &kp H      &kp J     &kp K     &kp L   &kp SEMI &kp SQT       &kp ENTER
+                &kp LG(C)  &kp TAB   &kp Q    &kp W    &kp E     &kp R     &kp T                         &kp Y      &kp U     &kp I     &kp O   &kp P    &kp LBKT      &kp RBKT
+                &kp LCTRL  &kp CAPS  &SOCD A  &kp S    &SOCD D   &kp F     &kp G                         &kp H      &kp J     &kp K     &kp L   &kp SEMI &kp SQT       &kp ENTER
                 &kp LALT   &kp LGUI  &kp Z    &kp X    &kp C     &kp V     &kp B      &kp LG(V) &kp BSLH &kp N      &kp M     &kp COMMA &kp DOT &kp FSLH &kp BACKSPACE &kp DEL
                                                        &kp LSHFT &kp SPACE &mo LOWER2                    &mo RAISE2 &kp SPACE
             >;
@@ -262,7 +256,7 @@
             bindings = <
                 &kp ESC   &kp GRAVE &kp F1 &kp F2 &kp F3         &kp F4    &kp F5                           &kp F6  &kp F7    &kp F8    &kp F9    &kp F10        &kp F11        &kp F12
                 &trans    &kp TAB   &kp Q  &kp W  &kp E          &kp R     &kp T                            &kp Y   &kp U     &kp I     &kp O     &kp P          &kp LBKT       &kp BACKSLASH
-                &trans    &kp CAPS  &kp A  &kp S  &kp D          &kp F     &kp G                            &kp H   &kp J     &kp K     &kp L     &kp SEMI       &kp UP_ARROW   &kp ENTER
+                &trans    &kp CAPS  &trans &kp S  &trans         &kp F     &kp G                            &kp H   &kp J     &kp K     &kp L     &kp SEMI       &kp UP_ARROW   &kp ENTER
                 &trans    &trans    &kp Z  &kp X  &kp C          &kp V     &kp B  &kp C_VOL_DN &kp C_VOL_UP &kp N   &kp M     &kp COMMA &kp DOT   &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW
                                                   &kp LS(LG(N4)) &kp SPACE &trans                           &trans  &kp SPACE
             >;
@@ -274,7 +268,7 @@
             bindings = <
                 &bt BT_CLR_ALL &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4                                &to MOUSE2 &to BASE  &kp F8    &kp F9  &kp F10        &msc SCRL_UP   &mkp MB4
                 &trans         &kp TAB    &kp Q        &kp W        &kp E        &kp R         &kp T                                       &kp Y      &kp U     &kp I     &kp O   &kp P          &msc SCRL_DOWN &mkp MCLK
-                &trans         &kp CAPS   &kp A        &kp S        &kp D        &kp F         &kp G                                       &kp H      &kp J     &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
+                &trans         &kp CAPS   &trans       &kp S        &trans       &kp F         &kp G                                       &kp H      &kp J     &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
                 &trans         &trans     &kp Z        &kp X        &kp C        &kp V         &kp B        &kp C_VOL_DN   &kp LS(LG(N4))  &kp N      &kp M     &kp COMMA &kp DOT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
                                                                     &bootloader  &kp SPACE     &trans                                      &trans     &kp SPACE
             >;
@@ -286,7 +280,7 @@
             bindings = <
                 &kp ESC    &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                                 &kp N6 &kp N7    &kp N8    &kp N9  &kp N0         &kp MINUS      &kp EQUAL
                 &trans     &kp TAB    &kp Q        &kp W        &kp E        &kp R        &kp T                                  &kp Y  &kp U     &kp I     &kp O   &kp P          &msc SCRL_DOWN &mkp MCLK
-                &trans     &kp CAPS   &kp A        &kp S        &kp D        &kp F        &kp G                                  &kp H  &kp J     &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
+                &trans     &kp CAPS   &trans       &kp S        &trans       &kp F        &kp G                                  &kp H  &kp J     &kp K     &kp L   &mkp LCLK      &mmv MOVE_UP   &mkp RCLK
                 &trans     &trans     &kp Z        &kp X        &kp C        &kp V        &kp B        &kp C_VOL_DN &kp C_VOL_UP &kp N  &kp M     &kp COMMA &kp DOT &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
                                                                 &kp LSHFT    &kp SPACE    &trans                                 &trans &kp SPACE
             >;

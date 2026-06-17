@@ -1,13 +1,7 @@
 layout: {zmk_keyboard: drift}
 layers:
-<<<<<<< HEAD
-  base: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, 'SOCD
-      A', S, 'SOCD D', F, G, H, J, K, L, ;, '''', ENTER, Option, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower,
-    raise, SPACE]
-=======
   base: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, '&SOCD A', S,
     '&SOCD D', F, G, H, J, K, L, ;, '''', ENTER, Option, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower, raise, SPACE]
->>>>>>> 505490e58cf7c4b5fd913ed3fa59507457519d6a
   lower:
   - ESC
   - '`'
@@ -456,14 +450,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-<<<<<<< HEAD
-  trackb_off: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS,
-    'SOCD A', S, 'SOCD D', F, G, H, J, K, L, ;, '''', ENTER, Option, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE,
-    lower2, raise2, SPACE]
-=======
   trackb_off: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, '&SOCD A',
     S, '&SOCD D', F, G, H, J, K, L, ;, '''', ENTER, Option, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower2, raise2, SPACE]
->>>>>>> 505490e58cf7c4b5fd913ed3fa59507457519d6a
   lower2:
   - ESC
   - '`'

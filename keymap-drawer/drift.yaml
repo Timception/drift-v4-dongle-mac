@@ -52,8 +52,8 @@ layers:
   - C
   - V
   - B
-  - VOL DN
-  - VOL UP
+  - Command+C
+  - Command+Z
   - N
   - M
   - ','
@@ -61,11 +61,11 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Sft+Command+4
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - SPACE
+  - {t: ▽, type: trans}
   raise:
   - BT CLR ALL
   - BT CLR
@@ -116,8 +116,8 @@ layers:
   - C
   - V
   - B
-  - VOL DN
-  - Ctl+UP ARROW
+  - Ctl+UP
+  - Sft+Command+4
   - N
   - M
   - ','
@@ -125,11 +125,11 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&bootloader'
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - SPACE
+  - {t: ▽, type: trans}
   adjust:
   - ESC
   - '`'
@@ -189,11 +189,11 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - LSHFT
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
-  - SPACE
+  - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -450,8 +450,70 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  trackb_off: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, '&SOCD A',
-    S, '&SOCD D', F, G, H, J, K, L, ;, '''', ENTER, Option, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower2, raise2, SPACE]
+  trackb_off:
+  - ESC
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - '='
+  - Command+C
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - ']'
+  - LCTRL
+  - CAPS
+  - '&SOCD A'
+  - S
+  - '&SOCD D'
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - ENTER
+  - Option
+  - Command
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Command+V
+  - \
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - BACKSPACE
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - lower2
+  - raise2
+  - {t: ▽, type: trans}
   lower2:
   - ESC
   - '`'
@@ -502,8 +564,8 @@ layers:
   - C
   - V
   - B
-  - VOL DN
-  - VOL UP
+  - Command+C
+  - Command+Z
   - N
   - M
   - ','
@@ -511,11 +573,11 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Sft+Command+4
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - SPACE
+  - {t: ▽, type: trans}
   raise2:
   - BT CLR ALL
   - BT CLR
@@ -566,7 +628,7 @@ layers:
   - C
   - V
   - B
-  - VOL DN
+  - Ctl+UP
   - Sft+Command+4
   - N
   - M
@@ -575,11 +637,11 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&bootloader'
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - SPACE
+  - {t: ▽, type: trans}
   adjust2:
   - ESC
   - '`'
@@ -639,8 +701,8 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - LSHFT
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
-  - SPACE
+  - {t: ▽, type: trans}

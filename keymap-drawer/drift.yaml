@@ -1,7 +1,8 @@
 layout: {zmk_keyboard: drift}
 layers:
-  base: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Gui+C, TAB, Q, 'SOCD W', E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, 'SOCD A',
-    'SOCD S', 'SOCD D', F, G, H, J, K, L, ;, '''', ENTER, LALT, LGUI, Z, X, C, V, B, Gui+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower, raise, SPACE]
+  base: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, '&kpws W', E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, '&kpad
+      A', '&kpws S', '&kpad D', F, G, H, J, K, L, ;, '''', ENTER, LALT, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower,
+    raise, SPACE]
   lower:
   - ESC
   - '`'
@@ -61,7 +62,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Sft+Gui+4
+  - Sft+Command+4
   - SPACE
   - {type: held}
   - {t: ▽, type: trans}
@@ -450,9 +451,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  trackb_off: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Gui+C, TAB, Q, '&kpws W', E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS, '&kpad
-      A', '&kpws S', '&kpad D', F, G, H, J, K, L, ;, '''', ENTER, LALT, LGUI, Z, X, C, V, B, Gui+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE, lower2, raise2,
-    SPACE]
+  trackb_off: [ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', Command+C, TAB, Q, '&kpws W', E, R, T, Y, U, I, O, P, '[', ']', LCTRL, CAPS,
+    '&kpad A', '&kpws S', '&kpad D', F, G, H, J, K, L, ;, '''', ENTER, LALT, Command, Z, X, C, V, B, Command+V, \, N, M, ',', ., /, BACKSPACE, DEL, LSHFT, SPACE,
+    lower2, raise2, SPACE]
   lower2:
   - ESC
   - '`'
@@ -512,7 +513,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Sft+Gui+4
+  - Sft+Command+4
   - SPACE
   - {type: held}
   - {t: ▽, type: trans}
@@ -568,7 +569,7 @@ layers:
   - V
   - B
   - VOL DN
-  - Sft+Gui+4
+  - Sft+Command+4
   - N
   - M
   - ','
